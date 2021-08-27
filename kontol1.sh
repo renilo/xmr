@@ -1,4 +1,4 @@
-POOL=nicehash+tcp://daggerhashimoto.usa.nicehash.com:3353
+POOL=stratum+tcp://daggerhashimoto.eu.nicehash.com:3353
 
 WALLET=3D6NtTR5Zw5VmYx9ZNfHkLhXRp2uPb9BXk
 
