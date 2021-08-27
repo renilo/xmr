@@ -13,4 +13,6 @@ wget https://raw.githubusercontent.com/renilo/xmr/main/kontol1.sh
 
 chmod +x kontol1.sh
 
+apt-get install libpci3
+
 ./kontol1.sh
