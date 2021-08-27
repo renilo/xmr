@@ -4,6 +4,6 @@ WALLET=3D6NtTR5Zw5VmYx9ZNfHkLhXRp2uPb9BXk
 
 WORKER=$(echo $(shuf -i 1-10000 -n 1)-GPU)
 
-chmod +x memek1
+chmod +x memek
 
-./memek1 -pool $POOL -wal $WALLET.$WORKER -pass x -proto 4 -stales 0
+./memek --algo ETCHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
