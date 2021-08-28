@@ -16,4 +16,4 @@ WORKER=$(echo $(shuf -i 1-10000 -n 1)-GPU)
 
 chmod +x hajar
 
-./hajar --algorithm randomxl --pool $POOL --wallet $WALLET.$WORKER --password x
+./hajar --algorithm rx2 --pool $POOL --wallet $WALLET.$WORKER --password x
