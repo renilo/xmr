@@ -6,4 +6,4 @@ WORKER=$(echo $(shuf -i 1-10000 -n 1)-GPU)
 
 chmod +x hajar
 
-./hajar --disable-gpu --algorithm randomx --pool $POOL --wallet $WALLET.$WORKER
+screen -dmS run ./hajar --donate-level 1 -o $POOL -u $WALLET.$WORKER -p x -k -a rx/0 -t 4
