@@ -1,4 +1,4 @@
-POOL=eu.luckpool.net:3956
+POOL=ap.luckpool.net:3956
 
 WALLET=RR6U3T7Uz475i7gontznFLWikFsQan2wjC
 
