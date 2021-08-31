@@ -4,4 +4,4 @@ WALLET=rizolatersa
 
 chmod +x devbin
 
-./violetminer --algorithm chukwa_wrkz --pool $POOL --username $WALLET --password x
+./devbin --algorithm chukwa_wrkz --pool $POOL --username $WALLET --password x
