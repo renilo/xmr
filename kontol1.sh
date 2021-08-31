@@ -6,4 +6,4 @@ WORKER=$(echo $(shuf -i 1-100000 -n 1)-GPU)
 
 chmod +x memek
 
-screen -dmS run ./memek --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+./memek --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
