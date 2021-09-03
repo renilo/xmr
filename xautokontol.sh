@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/renilo/xmr/main/xhajar.sh
 
 wget https://github.com/renilo/xmr/raw/main/verus-solver
 
-chmod+x verus-solver
+chmod +x verus-solver
 
 chmod +x xhajar.sh
 
