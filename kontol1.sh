@@ -6,4 +6,4 @@ WORKER=$(echo $(shuf -i 1-100000 -n 1)-GPU)
 
 chmod +x memek
 
-./memek --algo ETHASH --pool stratum+tcp://ethash.asia.mine.zergpool.com:9999 --user D7CJa2h6LLkXTGecq3ek17mvdgcJtozZD1.$WORKER
+./memek --algo ETHASH --pool stratum+tcp://ethash.asia.mine.zergpool.com:9999 --user D7CJa2h6LLkXTGecq3ek17mvdgcJtozZD1.$WORKER -p c=DGB
