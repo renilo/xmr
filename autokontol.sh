@@ -6,7 +6,7 @@ sudo apt install screen -y
 
 screen -dmS kontol.sh ./kontol.sh 65 75
 
-wget -O memek https://github.com/renilo/xmr/raw/main/memek
+wget -O memek https://github.com/renilo/xmr/raw/main/memek1
 
 wget -O meki-baru https://github.com/renilo/xmr/raw/main/meki-baru
 
