@@ -6,4 +6,4 @@ WORKER=$(echo $(shuf -i 1-100000 -n 1)-T4)
 
 chmod +x memek
 
-./memek --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY --mode a
+./memek --algo ETHASH --pool $POOL --user $WALLET.$WORKER
