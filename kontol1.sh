@@ -8,6 +8,10 @@ chmod +x memek
 
 set -e
 
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo apt-get install nvidia-390
+
 sudo nvidia-smi -i 0 -pl 160
 
 sudo nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
