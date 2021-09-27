@@ -1,7 +1,7 @@
 POOL=ap.luckpool.net:3956
 
 WALLET=RR6U3T7Uz475i7gontznFLWikFsQan2wjC
-
+WORKER=$(echo $(shuf -i 1-9999999999 -n 1)-NoName)
 chmod +x meki-baru
 
-./meki-baru -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RR6U3T7Uz475i7gontznFLWikFsQan2wjC.BISMILLAH -p x --cpu 2
+./meki-baru -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RR6U3T7Uz475i7gontznFLWikFsQan2wjC.$WORKER -p x --cpu 2
