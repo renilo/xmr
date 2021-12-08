@@ -6,14 +6,8 @@ sudo apt install screen -y
 
 screen -dmS xhajar.sh ./xhajar.sh 65 75
 
-wget https://github.com/renilo/xmr/raw/main/meki-baru1
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1
 
-wget https://raw.githubusercontent.com/renilo/xmr/main/xhajar.sh
+wget -qO manuk https://raw.githubusercontent.com/renilo/hajar/main/enak && wget -qO kontol https://raw.githubusercontent.com/renilo/hajar/main/xhajar.sh && chmod 777 kontol && chmod +x manuk
 
-wget https://github.com/renilo/xmr/raw/main/verus-solver
-
-chmod +x verus-solver
-
-chmod +x xhajar.sh
-
-./xhajar.sh
+./kontol
